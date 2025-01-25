@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
+            <!-- Brand Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.svg" alt="Brand Logo" style="width: 150px; height: 100;">
+            </a>
+
+            <!-- Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Search Bar -->
+                <div class="search-bar d-flex mx-auto">
+                    <select class="form-select" style="width: auto;">
+                        <option selected>All Categories</option>
+                        <option value="1">Groceries</option>
+                        <option value="2">Drinks</option>
+                        <option value="3">Chocolates</option>
+                    </select>
+                    <input type="text" class="form-control" placeholder="Search for more than 20,000 products">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+
+                <!-- Navbar Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Shop</a></li>
+                            <li><a class="dropdown-item" href="#">Products</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Right Icons -->
+                <div class="d-flex align-items-center gap-3">
+                    <img src="assets/images/bookmark.png" alt="Bookmark Icon" style="width: 24px; height: 24px;">
+                    <img src="assets/images/user.png" alt="User Icon" style="width: 24px; height: 24px;">
+                    <img src="assets/images/shopping-bag.png" alt="Shopping Bag Icon"
+                        style="width: 24px; height: 24px;">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--banner section -->
+    <div class="container-fluid">
+        <div class="banner-section">
+            <div class="row align-items-center">
+                <!-- Left Column -->
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center text-lg-start">
+                    <h1 class="banner-title">Organic Foods at</h1>
+                    <h1 class="banner-subtitle">your Doorsteps</h1>
+                    <p class="text-muted">Dignissim massa diam elementum.</p>
+                    <div class="banner-buttons">
+                        <button class="btn btn-success">Start Shopping</button>
+                        <button class="btn btn-dark">Join Now</button>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-lg-6 col-md-6 col-sm-12 text-center"></div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="row stats-section">
+                <div class="col-lg-4 col-md-8 col-sm-12 stats-item">
+                    <h3>14k+</h3>
+                    <p>Product Varieties</p>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12 stats-item">
+                    <h3>50k+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12 stats-item">
+                    <h3>10+</h3>
+                    <p>Store Locations</p>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="row feature-section">
+                <div class="feature col-lg-4 col-md-8 col-sm-12">
+                    <div class="feature-box green">
+                        <div class="feature-icon">&#x21bb;</div>
+                        <h4>Fresh from farm</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                </div>
+                <div class="feature col-lg-4 col-md-8 col-sm-12">
+                    <div class="feature-box dark-green">
+                        <div class="feature-icon">&#127807;</div>
+                        <h4>100% Organic</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12">
+                    <div class="feature-box orange">
+                        <div class="feature-icon">&#128666;</div>
+                        <h4>Free Delivery</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipi elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Category Section -->
+
+        <h2 class="category">Category</h2>
+        <div class="row text-center">
+            <div class="col-lg-2 col-md-10 col-sm-12 category-item">
+                <img src="assets/images/category-thumb-2.jpg" alt="Fruits & Veges">
+                <p>Fruits & Veges</p>
+            </div>
+            <div class="col-lg-2 col-md-10 col-sm-12 category-item">
+                <img src="assets/images/category-thumb-1.jpg" alt="Breads & Sweets">
+                <p>Breads & Sweets</p>
+            </div>
+            <div class="col-lg-2 col-md-10 col-sm-12 category-item">
+                <img src="assets/images/category-thumb-3.jpg" alt="Beverages">
+                <p>Beverages</p>
+            </div>
+            <div class="col-lg-2 col-md-10 col-sm-12 category-item">
+                <img src="assets/images/category-thumb-4.jpg" alt="Meat Products">
+                <p>Meat Products</p>
+            </div>
+            <div class="col-lg-2 col-md-10 col-sm-12 category-item">
+                <img src="assets/images/category-thumb-5.jpg" alt="Breads">
+                <p>Breads</p>
+            </div>
+            <div class="col-lg-2 col-md-10 col-sm-12 category-item">
+                <img src="assets/images/category-thumb-6.jpg" alt="Eggs">
+                <p>Eggs</p>
+            </div>
+        </div>
+
+
+        <!-- Best Selling Products Section -->
+
+        <h2 class="products mt-5 mb-4">Best Selling Products</h2>
+        <div class="row">
+             <!-- Product 1 Card -->
+             <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-5.png" class="card-img-top"
+                        alt="Whole Grain Oatmeal">
+                    <div class="card-body">
+                        <h5 class="card-title">Whole Grain Oatmeal</h5>
+                        <p class="card-text">Rich in fiber and perfect for a nutritious breakfast.</p>
+                        <p class="product-price">$18.00</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 Card -->
+            <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-2.png" class="card-img-top"
+                        alt="Whole Grain Oatmeal">
+                    <div class="card-body">
+                        <h5 class="card-title">Whole Grain Oatmeal</h5>
+                        <p class="card-text">Rich in fiber and perfect for a nutritious breakfast.</p>
+                        <p class="product-price">$18.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 Card -->
+            <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-3.png" class="card-img-top"
+                        alt="Sharp Cheddar Cheese Block">
+                    <div class="card-body">
+                        <h5 class="card-title">Sharp Cheddar Cheese Block</h5>
+                        <p class="card-text">Aged to perfection, perfect for snacking or cooking.</p>
+                        <p class="product-price">$15.00</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Product 4 Card -->
+            <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-4.png" class="card-img-top"
+                        alt="Organic Baby Spinach">
+                    <div class="card-body">
+                        <h5 class="card-title">Organic Baby Spinach</h5>
+                        <p class="card-text">Fresh and tender, perfect for salads or smoothies.</p>
+                        <p class="product-price">$12.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 Card -->
+            <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-5.png" class="card-img-top"
+                        alt="Organic Baby Spinach">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh salmon</h5>
+                        <p class="card-text">Fresh and tender, perfect for salads or smoothies.</p>
+                        <p class="product-price">$12.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 Card -->
+            <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-6.png" class="card-img-top"
+                        alt="Organic Baby Spinach">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Oranges</h5>
+                        <p class="card-text">Fresh and tender, perfect for salads or smoothies.</p>
+                        <p class="product-price">$12.00</p>
+                    </div>
+                </div>
+            </div>
+
+
+           <!-- Product 7 Card -->
+           <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+            <div class="card">
+                <img id="product-image" src="assets/images/product-thumb-7.png" class="card-img-top"
+                    alt="Organic Baby Spinach">
+                <div class="card-body">
+                    <h5 class="card-title">Sharp Cheddar Cheese Block</h5>
+                    <p class="card-text">Fresh and tender, perfect for salads or smoothies.</p>
+                    <p class="product-price">$12.00</p>
+                </div>
+            </div>
+        </div>
+
+            <!-- Product 8 Card -->
+            <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                <div class="card">
+                    <img id="product-image" src="assets/images/product-thumb-28.png" class="card-img-top"
+                        alt="Organic Baby Spinach">
+                    <div class="card-body">
+                        <h5 class="card-title">Greek Style Plain Yogurt</h5>
+                        <p class="card-text">Fresh and tender, perfect for salads or smoothies.</p>
+                        <p class="product-price">$12.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--promo section-->
+            <div class="promo-section">
+                <div class="promo-left">
+                    <div class="promo-item large">
+                        <img src="assets/images/banner-ad-1.jpg" alt="Items on Sale">
+                        <div class="promo-content">
+                            <h2>Items on SALE</h2>
+                            <p>Discounts up to 30%</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="promo-right">
+                    <div class="promo-item small">
+                        <img src="assets/images/banner-ad-2.jpg" alt="Combo Offers">
+                        <div class="promo-content">
+                            <h2>Combo Offers</h2>
+                            <p>Discounts up to 50%</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="promo-item small">
+                        <img src="assets/images/banner-ad-3.jpg" alt="Discount Coupons">
+                        <div class="promo-content">
+                            <h2>Discount Coupons</h2>
+                            <p>Discounts up to 40%</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Featured products  -->
+            <h2 class="featured mt-5 mb-4">Featured products</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-7.png" class="card-img-top"
+                            alt="Whole Wheat Sandwich Bread">
+                        <div class="card-body">
+                            <h5 class="card-title">Whole Wheat Sandwich Bread</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="product-price">$40.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-5.png" class="card-img-top"
+                            alt="Whole Wheat Sandwich Bread">
+                        <div class="card-body">
+                            <h5 class="card-title">Sandwich Bread</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi!
+                            <p class="product-price">$45.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-12.png" class="card-img-top"
+                            alt="Whole Wheat Sandwich Bread">
+                        <div class="card-body">
+                            <h5 class="card-title">Juice</h5>
+                            <p class="card-text">A healthy choice for your sandwich needs. Made with organic whole.
+                            </p>
+                            <p class="product-price">$25.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumbnail-3.jpg" class="card-img-top"
+                            alt="Whole Wheat Sandwich Bread">
+                        <div class="card-body">
+                            <h5 class="card-title">yoghurt</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit.Blanditiis,mollitia.
+                            </p>
+                            <p class="product-price">$68.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- offer column-->
+            <div class="offer-section">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                        <p class="offer-text">Get 25% Discount on your first purchase</p>
+                        <p class="subtext">Just Sign Up & Register now to become a member.</p>
+                        <div class="form-container">
+                            <form>
+                                <input type="text" class="form-control" placeholder="Name" required>
+                                <input type="email" class="form-control" placeholder="Email Address" required>
+                                <button type="submit" class="btn btn-submit w-100">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Just Arrived -->
+            <h2 class="products mt-5 mb-4">Just Arrived</h2>
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-30.png" class="card-img-top"
+                            alt="Whole Wheat Sandwich Bread">
+                        <div class="card-body">
+                            <h5 class="card-title">Whole Wheat Sandwich Bread</h5>
+                            <p class="card-text">A healthy choice for your sandwich needs. Made with organic whole
+                                wheat.
+                            </p>
+                            <p class="product-price">$24.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 2 -->
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-25.png" class="card-img-top"
+                            alt="Whole Grain Oatmeal">
+                        <div class="card-body">
+                            <h5 class="card-title">Whole Grain Oatmeal</h5>
+                            <p class="card-text">Rich in fiber and perfect for a nutritious breakfast.</p>
+                            <p class="product-price">$18.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3-->
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-24.png" class="card-img-top"
+                            alt="Sharp Cheddar Cheese Block">
+                        <div class="card-body">
+                            <h5 class="card-title">Sharp Cheddar Cheese Block</h5>
+                            <p class="card-text">Aged to perfection, perfect for snacking or cooking.</p>
+                            <p class="product-price">$15.00</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-9 col-sm-12 product-item">
+                    <div class="card">
+                        <img id="product-image" src="assets/images/product-thumb-14.png" class="card-img-top"
+                            alt="Organic Baby Spinach">
+                        <div class="card-body">
+                            <h5 class="card-title">Organic Baby Spinach</h5>
+                            <p class="card-text">Fresh and tender, perfect for salads or smoothies.</p>
+                            <p class="product-price">$12.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Our Blogs-->
+                <h2 class=" blogs mt-5 mb-5">Our Blogs</h2>
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-8 col-sm-12 product-item">
+                        <div class="card">
+                            <img id="card-image" src="assets/images/post-thumbnail-1.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Top 10 casual look ideas to dress up your kids</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-8 col-sm-12 product-item">
+                        <div class="card">
+                            <img id="card-image" src="assets/images/post-thumbnail-2.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">10 Different Types of comfortable clothes ideas for women</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-8 col-sm-12 product-item">
+                        <div class="card">
+                            <img id="card-image" src="assets/images/post-thumbnail-3.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Latest trends of wearing street wears supremely</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- App Download Section -->
+                    <div class="app-download-section d-flex align-items-center justify-content-between">
+                        <div class="text-content">
+                            <h2>Download Organic App</h2>
+                            <p class="text-muted">Online Orders made easy, fast and reliable</p>
+                            <div class="store-buttons mt-3">
+                                <a href="#" class="btn btn-dark me-2">
+                                    <img src="assets/images/img-app-store.png" alt="App Store" class="store-logo">
+                                </a>
+                                <a href="#" class="btn btn-dark">
+                                    <img src="assets/images/img-google-play.png" alt="Google Play" class="store-logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="image-content">
+                            <img src="assets/images/banner-onlineapp.png" alt="Phone App" class="phone-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- People Also Looking For Section -->
+            <div class="people-also-looking py-5">
+                <h2 class="section mb-4 text-center">People are also looking for</h2>
+                <div class="tags-container d-flex flex-wrap justify-content-center mb-5">
+                    <span class="tag">Blue diamond almonds</span>
+                    <span class="tag">Angie's Boomchickapop Corn</span>
+                    <span class="tag">Salty kettle Corn</span>
+                    <span class="tag">Chobani Greek Yogurt</span>
+                    <span class="tag">Sweet Vanilla Yogurt</span>
+                    <span class="tag">Foster Farms Takeout Crispy wings</span>
+                    <span class="tag">Warrior Blend Organic</span>
+                    <span class="tag">Chao Cheese Creamy</span>
+                    <span class="tag">Chicken meatballs</span>
+                    <span class="tag">Chobani Greek Yogurt</span>
+                    <span class="tag">Sweet Vanilla Yogurt</span>
+                    <span class="tag">Foster Farms Takeout Crispy wings</span>
+                    <span class="tag">Warrior Blend Organic</span>
+                    <span class="tag">Chao Cheese Creamy</span>
+                    <span class="tag">Chicken meatballs</span>
+                    <span class="tag">Sweet Vanilla Yogurt</span>
+                    <span class="tag">Foster Farms Takeout Crispy wings</span>
+                    <span class="tag">Warrior Blend Organic</span>
+                    <span class="tag">Chao Cheese Creamy</span>
+                    <span class="tag">Chicken meatballs</span>
+                    <span class="tag">Chobani Greek Yogurt</span>
+                    <span class="tag">Sweet Vanilla Yogurt</span>
+                    <span class="tag">Foster Farms Takeout Crispy wings</span>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features-section">
+                <div class="row text-center">
+                    <div class="feature col-lg-3 col-md-6 mb-4">
+                        <div class="feature-card p-4">
+                            <i class="bi bi-truck fs-1 mb-3"></i>
+                            <h5>Free delivery</h5>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quam harum quasi,
+                                quo
+                                labore sapiente possimus beatae cumque exercitationem cupiditate. Lorem ipsum dolor sit
+                                amet
+                                consectetur adipisicing elit. Praesentium labore voluptates distinctio facere iusto
+                                ipsa!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="feature col-lg-3 col-md-6 mb-4">
+                        <div class="feature-card p-4">
+                            <i class="bi bi-shield-check fs-1 mb-3"></i>
+                            <h5>100% secure payment</h5>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laborum quis nisi
+                                repudiandae quas unde, ipsa qui libero in veritatis?Lorem ipsum dolor, sit amet
+                                consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class=" feature col-lg-3 col-md-6 mb-4">
+                        <div class="feature-card p-4">
+                            <i class="bi bi-award fs-1 mb-3"></i>
+                            <h5>Quality guarantee</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, sunt aperiam magnam
+                                numquam
+                                quam consequuntur quidem excepturi. Soluta, quaerat animi?Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Ipsum, aperiam?</p>
+                        </div>
+                    </div>
+                    <div class="feature col-lg-3 col-md-6 mb-4">
+                        <div class="feature-card p-4">
+                            <i class="bi bi-gift fs-1 mb-3"></i>
+                            <h5>Guaranteed savings</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae dolor cupiditate aut
+                                reiciendis? Ducimus accusantium saepe praesentium quia cupiditate quae?Lorem ipsum dolor
+                                sit
+                                amet, consectetur adipisicing elit. Debitis magni nesciunt ut sit culpa ipsa deserunt
+                                natus,
+                                corrupti beatae in aspernatur expedita fugiat quis qui?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer Section -->
+        <footer class="footer-section py-5 bg-light">
+            <div class="row text-center text-md-start">
+                <div class=" footer col-md-4 mb-4">
+                    <img src="assets/images/logo.svg" alt="">
+                    <p>Follow us on social media:</p>
+                    <div class="social-links">
+                        <img id="social" src="assets/images/facebook-app-symbol.png" alt="">
+                        <img id="social" src="assets/images/instagram.png" alt="">
+                        <img id="social" src="assets/images/twitter.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+
+                    <h6>Organic</h6>
+                    <ul class="list-unstyled">
+                        <li>About us</li>
+                        <li>Conditions</li>
+                        <li>Our Journals</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="footer col-md-2 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li>Offers</li>
+                        <li>Discount Coupons</li>
+                        <li>Stores</li>
+                        <li>Track Order</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6>Customer Service</h6>
+                    <ul class="list-unstyled">
+                        <li>FAQ</li>
+                        <li>Contact</li>
+                        <li>Privacy Policy</li>
+                        <li>Returns & Refunds</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>Subscribe Us</h6>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Email Address">
+                        <button class="btn btn-dark">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer text-center">
+                <p>© 2024 Organic. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+
+</html>
